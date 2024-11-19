@@ -3,10 +3,10 @@ function slugify(title) {
   return title.split(" ").join("-");
 }
 
-let slugify = function (title) {
-  title = title.toLowerCase();
-  return title.replaceAll(" ", "-");
-};
+//let slugify = function (title) {
+//  title = title.toLowerCase();
+//  return title.replaceAll(" ", "-");
+//};
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
 console.log(slugify("English for developer")); // "english-for-developer"
